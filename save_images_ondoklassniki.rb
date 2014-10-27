@@ -20,7 +20,7 @@ def get_user_data
 end
 
 def initialize_browser
-  @usr = "iabubakar@mail.ru"
+  @usr = "abubakari87@mail.ru"
   @pswd = "hinkal05"
   @albumURL = "http://ok.ru/profile/489589708228/album/567363301316" 
   #test alubmURL http://www.odnoklassniki.ru/tripdiary/album/52156897755216
