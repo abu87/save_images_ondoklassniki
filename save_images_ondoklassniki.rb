@@ -20,9 +20,9 @@ def get_user_data
 end
 
 def initialize_browser
-  @usr = ""
-  @pswd = ""
-  @albumURL = "" 
+  @usr = "iabubakar@mail.ru"
+  @pswd = "hinkal05"
+  @albumURL = "http://ok.ru/profile/489589708228/album/567363301316" 
   #test alubmURL http://www.odnoklassniki.ru/tripdiary/album/52156897755216
   @b = Watir::Browser.new :firefox #might be :chrome, but worth this one
   if @usr.size>0 && @pswd.size>0 && @albumURL.size>0
